@@ -1,0 +1,23 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class CagandomeEnElTioEses {
+
+	public static void main(String[] args) {
+		int contador=0;
+		Scanner leer=new Scanner(System.in);
+		contador=leer.nextInt();
+		if (contador<100) {
+		for (contador=contador; contador <= 100; contador++) {
+			System.out.println(contador + "*2=" + contador*2);
+		}
+		}else {
+			for (contador=contador; contador >= 100; contador--) {
+				System.out.println(contador + "*2=" + contador*2);
+			}
+		}
+		leer.close();
+	}
+
+}
